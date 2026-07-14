@@ -44,7 +44,6 @@ def main():
     print("=== Python OOP Practical Demonstration ===")
     
     car1 = Car("Tesla", "Model S", 2024, "Red")
-    
     car2 = Car("Ford", "Mustang", 1969, "Black")
     
     print("\n[Interacting with Car 1]")
