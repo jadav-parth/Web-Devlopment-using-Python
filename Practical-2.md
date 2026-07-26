@@ -150,17 +150,3 @@ Area : 60
 - Inheritance allows the child classes to reuse the features of the parent class.
 
 ---
-
-# ✅ Features
-
-- Demonstrates **Inheritance**
-- Demonstrates **Polymorphism**
-- Demonstrates **Abstract Classes**
-- Uses Python `abc` module
-- Beginner-friendly example
-
----
-
-# 🎯 Result
-
-The program was executed successfully. It demonstrates the concepts of **Inheritance**, **Polymorphism**, and **Abstract Classes** using Python Object-Oriented Programming.
