@@ -28,8 +28,8 @@ Polymorphism means **"many forms."** It allows the same method name to perform d
 
 ### Example
 
-- `Rectangle.area()`
 - `Circle.area()`
+- `Rectangle.area()`
 
 Both classes use the same method name (`area()`), but each provides its own implementation.
 
@@ -37,7 +37,7 @@ Both classes use the same method name (`area()`), but each provides its own impl
 
 ## 3. Abstract Class
 
-An **Abstract Class** is a class that cannot be instantiated directly. It contains one or more abstract methods that must be implemented by its child classes.
+An **Abstract Class** is a class that cannot be instantiated directly. It contains one or more abstract methods that must be be implemented by its child classes.
 
 Python provides the **abc (Abstract Base Class)** module to create abstract classes.
 
@@ -46,18 +46,21 @@ Python provides the **abc (Abstract Base Class)** module to create abstract clas
 # 📝 Algorithm
 
 1. Import `ABC` and `abstractmethod` from the `abc` module.
-2. Create an abstract class named `Animal`.
-3. Declare an abstract method `sound()`.
-4. Create child classes `Dog` and `Cat`.
-5. Override the `sound()` method.
-6. Create objects of `Dog` and `Cat`.
-7. Call the `sound()` method.
-8. Display the output.
+2. Import the `math` module.
+3. Create an abstract class named `Shape`.
+4. Declare two abstract methods: `area()` and `display()`.
+5. Create child classes `Circle` and `Rectangle`.
+6. Override the `area()` and `display()` methods.
+7. Create objects of `Circle` and `Rectangle`.
+8. Store the objects in a list.
+9. Use a loop to call the `display()` method for each object.
+10. Display the area of each shape.
 
 ---
 
 # 💻 Python Program
 
+```python
 from abc import ABC, abstractmethod
 import math
 
@@ -116,9 +119,13 @@ shapes = [
 # Polymorphism
 for shape in shapes:
     shape.display()
+```
+
+---
 
 # ▶️ Output
 
+```
 Shape : Circle
 Radius : 5
 Area : 78.54
@@ -129,15 +136,18 @@ Length : 10
 Width  : 6
 Area : 60
 -------------------------
+```
+
 ---
 
 # 📚 Explanation
 
-- `Animal` is an abstract class.
-- `sound()` is an abstract method.
-- `Dog` and `Cat` inherit from the `Animal` class.
-- Both classes implement the `sound()` method differently.
-- Calling the `sound()` method through different objects demonstrates **Polymorphism**.
+- `Shape` is an abstract class.
+- `area()` and `display()` are abstract methods.
+- `Circle` and `Rectangle` inherit from the `Shape` class.
+- Both classes provide their own implementation of the `area()` and `display()` methods.
+- Calling the `display()` method through different objects demonstrates **Polymorphism**.
+- Inheritance allows the child classes to reuse the features of the parent class.
 
 ---
 
@@ -148,3 +158,9 @@ Area : 60
 - Demonstrates **Abstract Classes**
 - Uses Python `abc` module
 - Beginner-friendly example
+
+---
+
+# 🎯 Result
+
+The program was executed successfully. It demonstrates the concepts of **Inheritance**, **Polymorphism**, and **Abstract Classes** using Python Object-Oriented Programming.
