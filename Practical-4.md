@@ -79,7 +79,7 @@ print("\nDatabase Connection Closed")
 ```
 ---
 
-## Expected Output
+## 📄 Output
 
 ```text
 Data Inserted Successfully
