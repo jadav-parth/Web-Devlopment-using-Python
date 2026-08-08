@@ -75,3 +75,18 @@ print("Data Deleted Successfully")
 # 7. Close Connection
 conn.close()
 print("\nDatabase Connection Closed")
+
+---
+
+## 📄 Output
+
+Data Inserted Successfully
+
+Student Records:
+(1, 'Parth', 17, 'Computer Science & Engineering')
+
+Data Updated Successfully
+Data Deleted Successfully
+
+Database Connection Closed
+---
