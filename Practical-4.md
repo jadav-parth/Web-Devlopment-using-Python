@@ -85,7 +85,7 @@ print("\nDatabase Connection Closed")
 Data Inserted Successfully
 
 Student Records:
-(1, 'Kevin', 18, 'Computer Engineering')
+(1, 'Parth', 17, 'Computer Science & Engineering')
 
 Data Updated Successfully
 Data Deleted Successfully
