@@ -76,7 +76,7 @@ print("Data Deleted Successfully")
 conn.close()
 print("\nDatabase Connection Closed")
 
-python'''
+```
 ---
 
 ---
