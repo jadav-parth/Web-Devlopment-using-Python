@@ -74,7 +74,7 @@ print("Data Deleted Successfully")
 
 # 7. Close Connection
 conn.close()
-print("\nDatabase Connection Closed")
+print("\nDatabase Connection Closed")```
 ---
 
 ---
