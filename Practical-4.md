@@ -79,8 +79,6 @@ print("\nDatabase Connection Closed")
 ```
 ---
 
----
-
 ## Expected Output
 
 ```text
