@@ -76,6 +76,22 @@ print("Data Deleted Successfully")
 conn.close()
 print("\nDatabase Connection Closed")
 ---
+
+---
+
+## Expected Output
+
+```text
+Data Inserted Successfully
+
+Student Records:
+(1, 'Kevin', 18, 'Computer Engineering')
+
+Data Updated Successfully
+Data Deleted Successfully
+
+Database Connection Closed
+```
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dcf4cb03-861a-4596-98b1-7e28989d3b98" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/522a6570-31cb-4770-ae9b-1d9e4e8e9f43" />
 
